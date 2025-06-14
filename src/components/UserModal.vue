@@ -13,7 +13,9 @@
                             </v-btn>
                             <v-dialog v-model="confirmDialog" max-width="400" persistent>
                                 <v-card rounded="lg">
-                                    <v-card-title class="text-h6 pb-1 pt-1 bg-blue-grey-lighten-4">¿Estás seguro de cerrar esta ventana?</v-card-title>
+                                    <v-card-title
+                                        class="text-h6 pb-1 pt-1 bg-blue-grey-lighten-4 text-wrap text-center "
+                                        style="white-space: normal; word-break: break-word;">¿Estás seguro de cerrar esta ventana?</v-card-title>
                                     <v-card-actions>
                                         <v-row>
                                             <v-col class="d-flex justify-space-between bg-blue-grey-lighten-4" cols="12">
