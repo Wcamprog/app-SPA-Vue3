@@ -97,7 +97,6 @@
         website: '',
       })
   
-      // Sincroniza `props.user` con el formulario cuando cambia
       watch(
         () => props.user,
         (newUser) => {

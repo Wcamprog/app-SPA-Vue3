@@ -22,7 +22,7 @@ export const getUsers = async (): Promise<User[]> => {
     return await response.json()
   } catch (error: any) {
     showError(error.message || 'Error desconocido al obtener usuarios')
-    throw error // aún lo puedes manejar arriba si quieres
+    throw error
   }
 }
 
